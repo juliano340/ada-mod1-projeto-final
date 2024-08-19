@@ -44,19 +44,16 @@
             <form>
                 <div class="mb-3">
                     <label for="nomeProduto" class="form-label">Nome do Produto</label>
-                    <input type="text" class="form-control" id="nomeProduto" placeholder="Digite o nome do produto">
+                    <input type="text" class="form-control" id="nomeProduto" placeholder="Digite o nome do produto" required>
                 </div>
                 <div class="mb-3">
                     <label for="precoProduto" class="form-label">Preço</label>
-                    <input type="number" class="form-control" id="precoProduto" placeholder="Digite o preço">
+                    <input type="number" class="form-control" id="precoProduto" placeholder="Digite o preço" required>
                 </div>
-                <div class="mb-3">
-                    <label for="descricaoProduto" class="form-label">Descrição</label>
-                    <textarea class="form-control" id="descricaoProduto" rows="3" placeholder="Digite a descrição do produto"></textarea>
-                </div>
+                
                 <div class="mb-3">
                     <label for="imagemProduto" class="form-label">Imagem do Produto</label>
-                    <input class="form-control" type="file" id="imagemProduto">
+                    <input class="form-control" type="file" id="imagemProduto" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Cadastrar Produto</button>
             </form>
